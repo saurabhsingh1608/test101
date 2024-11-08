@@ -1,0 +1,35 @@
+guid: 170fddd1-defa-4de9-bf74-3e08f8343744
+answer:
+  name: test01
+  tables:
+  - id: (Sample) Retail - Apparel
+    name: (Sample) Retail - Apparel
+    fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+  search_query: "[sales] [city]"
+  answer_columns:
+  - name: Total sales
+  - name: city
+  table:
+    table_columns:
+    - column_id: Total sales
+      show_headline: false
+    - column_id: city
+      show_headline: false
+    ordered_column_ids:
+    - city
+    - Total sales
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Total sales
+    - column_id: city
+    axis_configs:
+    - x:
+      - city
+      "y":
+      - Total sales
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"9474bc74-0923-4c84-a27d-de79ffbdcf3a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"588d615c-040a-40dd-a112-ecae6e3ebb7e\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"city\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total sales\",\"color\": \"#2E75F0\"}]}"
+  display_mode: TABLE_MODE
